@@ -1,7 +1,7 @@
 body{
   background-image: url(photo/images.jpeg); background-size:cover;
   background-repeat: no-repeat;
-  height: 1000px
+  height: 1750px
 
 
 }
@@ -51,4 +51,17 @@ img{
   width:45;
   border-radius:500px;
 }
+/*styling footer*/
+.footer{
+  position: fixed;
+  text-align: center;
+  color:black;
+  width: 100%;
+  background-color: whitesmoke;
+  margin:top;
+  left: 0;
+  bottom: 0;
+
+}
+/* end of styling footer*/
 
