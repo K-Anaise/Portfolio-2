@@ -1,6 +1,9 @@
 body{
-  background-color: aquamarine;
-  height:1500
+  background-image: url(photo/images.jpeg); background-size:cover;
+  background-repeat: no-repeat;
+  height: 1000px
+
+
 }
 h1{
   color: whitesmoke;
@@ -10,3 +13,42 @@ em{
   color:purple;
   font-size: 18x;
 }
+strong{
+  color:purple;
+  font-size:18px;
+}
+/*start of the styling the navigation bar of my portfolio website*/
+nav ul{
+  
+  margin: 0 ;
+  padding: 0;
+ background-color:white;
+  list-style-type:none;
+}
+nav>ul{
+ display:inline-block;
+}
+ nav ul li{
+text-align:right;
+padding:14px 16px;
+text-decoration:none;
+}
+nav ul li {
+  float:left;
+}
+nav ul li a{
+ display:inline-block;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+nav ul li:hover{
+ background-color:#c0c0c0;
+}
+/*end of the styling the navigation bar*/
+img{
+  height:50;
+  width:45;
+  border-radius:500px;
+}
+
